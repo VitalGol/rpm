@@ -2,12 +2,10 @@
     display: flex;
     justify-content: center;
     menu {
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        padding-inline-start: 0px;
-        li {
-            // list-style-type: none;
-        }
+        display: flex;
+        padding-inline-start: 1rem;
     }
-    main {}
+    main {
+        display: flex;
+    }
 }

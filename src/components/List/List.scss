@@ -1,0 +1,18 @@
+ul {
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    li {
+        list-style-type: none;
+        margin-bottom: 1rem;
+        a {
+            text-decoration: none;
+            color: #222;
+            img {
+                width: .8rem;
+                height: .8rem;
+                margin-right: .5rem;
+            }
+        }
+    }
+}
