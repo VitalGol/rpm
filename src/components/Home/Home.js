@@ -1,22 +1,40 @@
 import React from "react";
-import "./Home.css";
+import "./Home.scss";
 const Home = () => {
   return (
-    <div>
-      <h2> Home </h2>
+    <div className="home">
+      <h2>О себе:</h2>
+
+      <p>✔медик (базовое медицинское образование государственного образца);</p>
+      <p>✔инструктор лечебной физкультуры ( государственного образца)</p>
+      <p>✔массажист ( государственного образца и др. Школ)</p>
+      <p>✔преподаватель массажа </p>
+      <p>✔косметолог ( государственного образца и др. Школ)</p>
+      <p>✔Грандмастер Рэйки с правом преподавания</p>
+      <p>✔остеопат (обучение в нескольких школах)</p>
+      <p>✔краниосакральный терапевт (обучение в нескольких школах)</p>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ea
-        ducimus impedit, nihil vel ad minima error veritatis adipisci quasi aut
-        accusamus dolorem vitae fugit atque. Modi sunt quae voluptatum qui
-        recusandae fugiat omnis exercitationem, provident aliquid voluptate
-        saepe earum nesciunt, eum minima. Consequatur, veritatis cum nobis ea
-        necessitatibus iste quo maxime eos dolor quam minima, obcaecati suscipit
-        nulla soluta quaerat, adipisci beatae vero numquam consequuntur corrupti
-        labore? Eos libero, voluptates nostrum fuga quaerat aperiam doloremque
-        dolorum neque maxime ab totam facilis quibusdam, obcaecati nam odit
-        consequuntur, enim numquam a eaque dolor rem? Sed repellat suscipit
-        doloremque laboriosam enim dolores.
+        ✔висцеральный остеопат ( обучение в нескольких школах по разным
+        методикам)
       </p>
+      <p>✔преподаватель остеопатии </p>
+      <p>✔энерготерапевт</p>
+      <p>✔целитель</p>
+      <p>✔трансформолог</p>
+      <p>
+        ✔произвожу коррекции и настраивание любых способностей под безвредные
+        для себя и окружающих
+      </p>
+      <p>✔дефектолог </p>
+      <p>✔регрессолог</p>
+      <p>✔произвожу коррекции личности</p>
+      <p>✔произвожу коррекции судьбы</p>
+      <p>✔таролог</p>
+      <p>✔рунолог</p>
+      <p>✔простраиваю ситуации</p>
+      <p>✔эзотерик </p>
+      <h3>Принцип работы: " Не навреди".</h3>
+      <h3> Путь ученика и наставника.</h3>
     </div>
   );
 };
