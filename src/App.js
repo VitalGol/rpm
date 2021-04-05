@@ -7,6 +7,7 @@ import Massage from "./components/Massage/Massage";
 import Courses from "./components/Courses/Courses";
 import Articles from "./components/Articles/Articles";
 import Footer from "./components/Footer/Footer";
+import img from "./assets/logoRPM.png";
 import "./App.scss";
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
       <Router>
         <header>
           <div className="menuLeft">
-            <img src="/assets/logoRPM.png" alt="" srcset="" />
+            <img src={img} alt="Logo" />
             <p>Результативно Позитивно Мягко</p>
           </div>
           <nav>

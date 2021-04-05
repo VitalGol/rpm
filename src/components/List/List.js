@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../../assets/logoNat30.png";
 import "./List.scss";
 let elements = [
   "Что такое Рэйки",
@@ -29,10 +30,10 @@ let elements = [
 const List = () => {
   return (
     <ul>
-      {elements.map((item) => (
-        <li>
+      {elements.map((item, index) => (
+        <li key={index}>
           <a href="http://">
-            <img src="./assets/logoNat30.png" alt="item logo" />
+            <img src={img} alt="item logo" />
             {item}
           </a>
         </li>

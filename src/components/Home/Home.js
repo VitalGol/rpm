@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../../assets/logoNat30.png";
 import "./Home.scss";
 let about = [
   "медик (базовое медицинское образование государственного образца)",
@@ -27,8 +28,11 @@ const Home = () => {
   return (
     <div className="home">
       <h2>О себе:</h2>
-      {about.map((item) => (
-        <p>{item}</p>
+      {about.map((item, index) => (
+        <p key={index}>
+          <img src={img} alt="point logo" />
+          {item}
+        </p>
       ))}
       <h3>Принцип работы: " Не навреди".</h3>
       <h3> Путь ученика и наставника.</h3>
